@@ -25,7 +25,7 @@ int main()
 				y = -R;
 			else
 				if (8 - R < x && x <= 8 + R)
-					y = sqrt(-(R * R - (x - 8) * (x + 8) - R));
+					y = sqrt(R * R - (x - 8) * (x - 8));
 				else
 					y = -R;
 
